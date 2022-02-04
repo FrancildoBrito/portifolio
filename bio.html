@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media screen and (max-width: 768px){
+            #perfil {
+                display: none;
+            }
+            #habilidades > header{
+                width: 94vw;
+            }
+            #habilidades > article{
+                margin-top: 15%;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+        @media screen and (max-width: 500px){
+            #habilidades > article{
+                margin-top: 22%;
+            }
+        }
+        @media screen and (max-width: 300px){
+            #habilidades > article{
+                margin-top: 28%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="perfil">
+            <picture>
+                <a target="_blank" href="https://www.instagram.com/francildobrito/"><img class="foto-perfil" src="imagens/perfil.jpg" alt=""></a>
+            </picture>
+           <h4>Nome:</h4> 
+           <h3>Francildo Brito</h3>
+           <h4>Idade:</h4>
+            <h3>20 Anos</h3>
+           <h4>Tecnologias:</h4> 
+           <h3>HTML5, CSS3, Java Script</h3>
+           <h4>Nivel de Escolaridade:</h4>
+           <h3>Cursando bacharelado em Ciências Contabéis</h3>
+        </section>
+        <section id="habilidades">
+            <header>
+                <h1>Francildo Brito</h1>
+                <nav>
+                    <a href="index.html">perfil</a>
+                    <a style="background-color: rgba(46, 46, 173, 0.562);" href="bio.html">Projetos</a>
+                    <a href="contatos.html">Contatos</a>
+                </nav>
+            </header>
+            <article>
+                 <h2 >Meus Projetos</h2>
+                 <p>Ao longo dos cursos, como forma de ir testando o conhecimento adquirido, fui criando alguns projetos práticos. Alguns deles são:</p>
+                 <ul>
+                     <li style="margin-left: 15px;"><h3><a target="_blank" href="https://francildobrito.github.io/projeto-android/">Projeto-Android</a></h3></li>
+                     <p>Esse projeto foi desenvolivido como um desafio para o curso de HTML5 e CSS3 do curso em video, trata da história de como foi criado o mundialmente famoso mascote, dando alguns detalhes de sua criadora. Projeto criado totalmente responsivo criado em HTML e CSS. Veja o projeto clicando <a href="https://francildobrito.github.io/projeto-android/" target="_blank" rel="noopener noreferrer">aqui!</a></p>
+                     <li><h3><a target="_blank" href="https://francildobrito.github.io/homemaranha/">Projeto Homem-aranha</a></h3></li>
+                     <p>Projeto inspirado no anterior, porém conta com algumas atualizações, possui 4 paginas navegaveis nas quais é mostrada além da história de criação do personagem, a sinopse de todas as suas adptações live action e um video de Stan Lee comentado sobre como teve a idéia do Homem-aranha. Além disso cliclando nas imagens dos filmes você será direcionado a outro site onde poderá rever os filmes do teioso. Clique <a target="_blank" href="">aqui</a> e confira!</p>
+                     <li><h3><a href="https://francildobrito.github.io/Calculadora-IMC/" target="_blank" rel="noopener noreferrer">Calculadora-IMC</a></h3></li>
+                     <p>Talvez este projeto seja a cereja do bolo até o momento, criado em Java Script, traz algumas informações sobre a sigla IMC(Indice de Massa Corporal), além de contar, como o própio nome sugere com uma calculadora onde você pode calcular seu IMC. Clique <a href="https://francildobrito.github.io/Calculadora-IMC/" target="_blank" rel="noopener noreferrer">aqui</a> e teste você mesmo!</p>
+                 </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <span>Desenvolivido por Francildo Brito (<a href="https://www.instagram.com/hellodevs19/" target="_blank" rel="noopener noreferrer">Hello Devs</a>)</span>
+    </footer>
+</body>
+</html>
